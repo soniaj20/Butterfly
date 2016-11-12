@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>	
+	<head>
+		
+		<link rel = "stylesheet"
+			type = "text/css"
+			href = "style.css">
+		
+		<link rel="stylesheet" href="https://
+			maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/
+			bootstrap.min.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="path/to/my/javascript/file.js"></script>
+
+
+	</head>
+	<body>
+
+		<div>
+			<div class="container">
+			<div class="jumbotron">
+				<h1> Butterflies Galore:<strong> The Monarch Butterfly </strong> </h1>
+				<p class="lead">Have you ever wondered about butterflies? <small> Take a look </small>
+				</p>
+				<p>
+					<a class="btn btn-lg btn-success" href="#"
+					role="button">See more</a>
+				</p>
+			</div>
+		</div>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+				<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" datatoggle="
+				collapse" data-target="#navbar" aria-expanded="false" ariacontrols="
+				navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Explore</a>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#overview">Overview</a></li>
+				<li><a href="#features">Features</a></li>
+				</ul>
+				</div><!--/.nav-collapse -->
+				</div>
+			</nav>
+			
+			<h2> There are so many out <em>there</em></h2>
+			<h3> Let's learn about butterflies together </h3>
+			<a href = "https://en.wikipedia.org/wiki/Butterfly"
+			target="_blank"> Wikipedia</a>
+			<vr>
+			<img src= "http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Bugs/H-P/monarch-butterfly-grass.jpg.adapt.945.1.jpg">
+		</div>
+		
+	
+
+		<div>
+			<ul style = "list-style-type:square">
+				<li>
+					<span style= "color:blue">
+					There are blue butterflies
+					</span>
+					<a href = "https://en.wikipedia.org/wiki/Butterfly"
+					target="_blank"> Wikipedia</a>
+					
+				</li>
+
+				<li>
+					<span style= "color:red">There are red butterflies
+					</span>
+				</li>
+				
+				<li>
+					<span style= "color:yellow">There are yellow butterflies
+					</span>
+				</li>
+			</ul>
+		</div>
+
+		<div>
+			<h4>Animal Features</h4>
+			<p>
+				Our product has <span style= "color:red">state-of-the-art </span> features.
+			</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">I am.............................. column 1.</div>
+				<div class="col-md-4">I am co.......lumn 2.</div>
+				<div class="col-md-4">I am column 3.</div>
+			</div>
+			<script>
+			var result = 5 + 3;
+			alert("5 + 3 is " + result);
+			</script>
+			
+			<p id= "myParagraph"> </p>
+			<button type="button" onclick="document.getElementById('myParagraph').innerHTML ='Hello World'">Click</button>
+
+<div>
+			<p id= "prettyParagraph"> </p>
+			<button type="button" onclick="applyStyling()">Make it pretty!</button>
+
+			<script> 
+				function applyStyling() {
+				var paragraph = document.getElementById("prettyParagraph");
+				paragraph.innerHTML = "Soooo random!";
+				paragraph.style.color = "green";
+				paragraph.style.fontSize = "29px";
+				paragraph.style.fontWeight = "700";
+				}
+			</script>
+</div>
+
+<div>
+			<input id="numericInput" type="number">
+			<p id= "result"> </p>
+			<button type="button" onclick="testInput()">Test Input</button>
+
+			<script>
+				function testInput() {
+				// Create variable to store test result
+				var text;
+				// Get the value of the input field with id="numb"
+				var x = document.getElementById("numericInput").value;
+				if (isNaN(x) || x < 0 || x > 99) {
+				text = "Wrong input";
+				} else {
+				text = "Correct input";
+				}
+				// Display result
+				document.getElementById("result").innerHTML = text;
+				}
+
+			</script>
+
+
+
+</div>
+
+<div>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						Let's go fly
+					</div>
+				<div class="item">
+						Let's go eat
+				</div>
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				$(document).ready(function() {
+				$("#myCarousel").carousel({interval: 2000});
+				});
+			</script>
+</div>
+		</body>
+</HTML>
